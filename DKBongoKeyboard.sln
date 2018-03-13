@@ -3,23 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DKBongoKeyboard", "DKBongoKeyboard\DKBongoKeyboard.csproj", "{FF92F0B5-B86C-4AB9-84DA-2C882A7E403D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DkBongoKeyboard", "DkBongoKeyboard.csproj", "{66703F1B-6B3D-48FD-BA2D-05A78CA161E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FF92F0B5-B86C-4AB9-84DA-2C882A7E403D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FF92F0B5-B86C-4AB9-84DA-2C882A7E403D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FF92F0B5-B86C-4AB9-84DA-2C882A7E403D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FF92F0B5-B86C-4AB9-84DA-2C882A7E403D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66703F1B-6B3D-48FD-BA2D-05A78CA161E0}.Debug|x86.ActiveCfg = Debug|x86
+		{66703F1B-6B3D-48FD-BA2D-05A78CA161E0}.Debug|x86.Build.0 = Debug|x86
+		{66703F1B-6B3D-48FD-BA2D-05A78CA161E0}.Release|x86.ActiveCfg = Release|x86
+		{66703F1B-6B3D-48FD-BA2D-05A78CA161E0}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {020A6771-033B-40FA-9174-4FB6818C1AA6}
+		SolutionGuid = {F15C8029-8E65-44A3-A694-6893CFFF4C7F}
 	EndGlobalSection
 EndGlobal
