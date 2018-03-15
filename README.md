@@ -1,4 +1,4 @@
-# DK Bongo Keyboard
+![alt](https://cdn.discordapp.com/attachments/423640521240608778/423640569924026369/donkeykongakeyboard2.png)
 
 Application for interfacing with the Gamecube Donkey Kong Bongos (From Donkey Konga and DK Jungle Beats)  over HID for use as a keyboard. (Mayflash adapter only)
 
