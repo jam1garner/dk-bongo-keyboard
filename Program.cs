@@ -179,6 +179,7 @@ namespace DkBongoKeyboard
                     if (ButtonsPressed.startPressed)
                     {
                         mode++;
+                        mode %= 3;
                         currentChar = 0;
                         UpdateCharacter();
                     }
@@ -214,7 +215,7 @@ namespace DkBongoKeyboard
                 }
             }
 
-            System.Threading.Thread.Sleep(200);
+            System.Threading.Thread.Sleep(1000/30);
             _device.ReadReport(OnReport);
         }
 
