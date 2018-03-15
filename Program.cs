@@ -119,6 +119,8 @@ namespace DkBongoKeyboard
 
                 _device.MonitorDeviceEvents = true;
 
+                
+
                 _device.ReadReport(OnReport);
                 break;
             }
@@ -212,6 +214,7 @@ namespace DkBongoKeyboard
                 }
             }
 
+            System.Threading.Thread.Sleep(200);
             _device.ReadReport(OnReport);
         }
 
@@ -229,6 +232,7 @@ namespace DkBongoKeyboard
         {
             _attached = true;
             Console.WriteLine("Gamepad attached.");
+            
             _device.ReadReport(OnReport);
         }
 
